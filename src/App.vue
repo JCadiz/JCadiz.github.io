@@ -255,10 +255,10 @@ export default {
         email:'jesuscadiz22@gmail.com',
         phone:'+58(0414)389-13-51',
         description:'I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.',
-        facebook:'https://facebook.com',
-        twitter:'https://twitter.com',
-        linkedin:'https://linkedin.com',
-        github:'https://github.com'
+        facebook:'https://www.facebook.com/jesuscadizb',
+        instagram:'https://www.instagram.com/jesuscad95/',
+        linkedin:'https://www.linkedin.com/in/jesus-cadiz-b169a811b/',
+        github:'https://github.com/JCadiz'
       }
     }
   }
