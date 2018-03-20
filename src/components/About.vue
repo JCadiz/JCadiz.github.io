@@ -10,23 +10,23 @@
           <p class="mb-5">{{ about.description }}</p>
           <ul class="list-inline list-social-icons mb-0">
             <li class="list-inline-item" v-if="about.facebook != '' ">
-              <a href="about.facebook ">
+              <a :href="about.facebook " target="_blank">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
                 </span>
               </a>
             </li>
-            <li class="list-inline-item" v-if="about.twitter != '' ">
-              <a href="about.twitter ">
+            <li class="list-inline-item" v-if="about.instagram != '' ">
+              <a :href="about.instagram " target="_blank">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
                 </span>
               </a>
             </li>
             <li class="list-inline-item" v-if="about.linkedin != '' ">
-              <a href="about.linkedin ">
+              <a :href="about.linkedin " target="_blank">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
@@ -34,7 +34,7 @@
               </a>
             </li>
             <li class="list-inline-item" v-if="about.github != '' ">
-              <a href="about.github">
+              <a :href="about.github" target="_blank">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-github fa-stack-1x fa-inverse"></i>
